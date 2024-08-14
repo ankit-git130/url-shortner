@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        
+        body{
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: rgb(116, 158, 145);
+            text-align: center;
+            
+        }
+        h1{
+            color: rgb(40, 11, 20);
+            text-align: center;
+            border-color: black;
+        }
+        
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp</title>
+</head>
+<body>
+    <h1>Create your account</h1>
+    <form action="/user" method="post">
+        <label>Full Name</label>
+        <input type="text" required name = "name">
+        <label>Email</label>
+        <input type="text" required name = "email">
+        <label>Password</label>
+        <input type="text" required name = "password">
+
+        <button type="submit">Signup</button>
+    </form>
+</body>
+</html>
