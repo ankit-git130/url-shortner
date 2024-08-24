@@ -1,51 +1,34 @@
 ﻿# url-shortner
 A simple URL shortening application built with Node.js, Express, and EJS for server-side rendering. This project allows users to input a long URL and receive a shortened version that redirects to the original URL.
 
-Features
+#Features
 Shorten URLs: Convert long URLs into shortened versions.
 Redirect: Shortened URLs redirect users to the original long URL.
 EJS Templating: Server-side rendering with EJS for a dynamic and responsive UI.
 Express: Lightweight server with routing and middleware.
 MongoDB: Store and retrieve URL data.
 
-Project Structure
-.
-├── public
-│   ├── css
-│   │   └── style.css
-│   └── js
-├── views
-│   ├── index.ejs
-│   └── shorturl.ejs
-├── models
-│   └── Url.js
-├── routes
-│   └── index.js
-├── app.js
-├── package.json
-└── README.md
-
-Installation
+# Installation
 Clone the repository:
 git clone https://github.com/your-username/url-shortener.git
 cd url-shortener
 
-Install the dependencies:
+# Install the dependencies:
 npm install
 
-Set up MongoDB:
+# Set up MongoDB:
 
 Ensure MongoDB is running locally or provide a connection string to a remote MongoDB instance.
 Create a .env file in the root of the project and add your MongoDB URI:
 bash
 MONGO_URI=your-mongodb-connection-string
 
-Run the application:
+# Run the application:
 npm start
 
 Open your browser and visit http://localhost:3000 to access the application.
 
-Usage
+# Usage
 Enter the long URL you want to shorten in the input field on the homepage.
 Click "Shorten URL" to generate a shortened link.
 Copy the shortened link and use it to redirect to the original URL.
